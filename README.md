@@ -7,7 +7,7 @@ This package has a total of 11 scripts. One manager, 5 toggle components, and 5 
 
 How to use:
 If you don't want to read the text description as much as I don't want to write it, you can find a YouTube tutorial below:
-
+https://www.youtube.com/watch?v=WxuvFQW94E4
 
 The Manager gameObject:
 The first thing you'll need to do is set up the Manager gameObject. In order for these scripts to work, you'll need a manager gameObject in each scene you want to be affected.

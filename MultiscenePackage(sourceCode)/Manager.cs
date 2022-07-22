@@ -9,18 +9,18 @@
  * 
  * How to use:
  * If you don't want to read the text description as much as I don't want to write it, you can find a YouTube tutorial below:
- * 
+ * https://www.youtube.com/watch?v=WxuvFQW94E4
  * 
  * The Manager gameObject:
  * The first thing you'll need to do is set up the Manager gameObject. In order for these scripts to work, you'll need a manager gameObject
  * in each scene you want to be affected.
  * 
- * To get started, create an Boolean AC Global Variable, and name it whatever you want. You can also set the value to whatever you want.
+ * To get started, create a Boolean AC Global Variable, and name it whatever you want. You can also set the value to whatever you want.
  * Once you've done that, create a new empty gameObject, and name it Manager (the name doesn't really matter, but you'll want to name it
- * something relavant). Once you've done that, add the Manager component to the gameObject. Once done, you will see 3 variables. The top
+ * something relevant). Once you've done that, add the Manager component to the gameObject. Once done, you will see 3 variables. The top
  * variable is all you'll need to worry about. The bottom two are there for debugging purposes, you won't need to worry about editing them
  * at all. The top variable should be labeled Variable Name. In that field, you'll need to type in the name of the Global Variable you created.
- * Once you've done that, you've set up you're manager, and the rest of the scripts will be ready to go for that scene!
+ * Once you've done that, you've set up your manager, and the rest of the scripts will be ready to go for that scene!
  * 
  * The Toggle components:
  * These next sections will be an overview of the purpose of each toggle. All of these components are very similar in layout. There is a value
