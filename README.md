@@ -1,7 +1,10 @@
 Author: Ryan Zollinger (Dr. Puzzler#1894)
 Made for Ab.
 
-This add-on for the Adventure Creator plugin allows for objects to easily be enabled/disabled depending on the value of a global variable.
+IMPORTANT:
+THIS IS THE 2D PACKAGE. VISIBILITY AND TINT TOGGLES IN THIS PACKAGE WILL NOT WORK WITH 3D MESHES. PLEASE USE THE 3D VERSION OF THIS PACKAGE FOR MESHES.
+
+This add-on for the Adventure Creator plugin allows for objects to easily be enabled/disabled depending on the value of a global variable. 
 
 This package has a total of 11 scripts. One manager, 5 toggle components, and 5 remember components for each toggle.
 
