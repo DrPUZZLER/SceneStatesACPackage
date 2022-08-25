@@ -1,12 +1,10 @@
 Author: Ryan Zollinger (Dr. Puzzler#1894)
 Made for Ab.
-
-IMPORTANT:
-THIS IS THE 2D PACKAGE. VISIBILITY AND TINT TOGGLES IN THIS PACKAGE WILL NOT WORK WITH 3D MESHES. PLEASE USE THE 3D VERSION OF THIS PACKAGE FOR MESHES.
+Updated with 3D mesh support for Moosifer
 
 This add-on for the Adventure Creator plugin allows for objects to easily be enabled/disabled depending on the value of a global variable. 
 
-This package has a total of 11 scripts. One manager, 5 toggle components, and 5 remember components for each toggle.
+This package has a total of 13 scripts. One manager, 6 toggle components, and 6 remember components for each toggle.
 
 How to use:
 If you don't want to read the text description as much as I don't want to write it, you can find a YouTube tutorial below:
@@ -21,7 +19,10 @@ The Toggle components:
 These next sections will be an overview of the purpose of each toggle. All of these components are very similar in layout. There is a value for when the Global Variable is set to true, and a value for when it is false. There is also a 'negate effect' state on most components that allow for more flexibility if objects need to be changed independently from the Global Variable value. For each toggle, you can enable/disable Negate Effect by using the Object:Send Message action. Just use the Turn On/Turn Off messages to enable/disable Negate Effect.
 
 VisibilityToggle:
-The Visibility toggle is pretty straightforward, it will make a spriteRenderer visible/invisible depending on the Global Variable value. It will also have a default state for when Negate Effect is enabled. This DOES NOT work on 3D meshes.
+The VisibilityToggle is pretty straightforward, it will make a spriteRenderer visible/invisible depending on the Global Variable value. It will also have a default state for when Negate Effect is enabled. This DOES NOT work on 3D meshes.
+
+VisibilityToggle3D:
+The VisibilityToggle3D works exactly the same as VisibilityToggle, but instead of affecting 2D sprites it will affect 3D meshes. This DOES NOT work on 2D sprites.
 
 HotspotToggle:
 This is also pretty straightforward, it will enable/disable a hotspot depending on the Global Variable value. It will also have a default state for when Negate Effect is enabled.
